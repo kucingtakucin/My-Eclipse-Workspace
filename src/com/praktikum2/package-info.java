@@ -5,4 +5,4 @@
  * @author adam
  *
  */
-package com.adam;
+package com.praktikum2;

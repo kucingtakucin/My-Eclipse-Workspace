@@ -2,4 +2,4 @@
  * @author adam
  *
  */
-package com.praktikum;
+package com.latihan1;

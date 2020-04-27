@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.adam;
+package com.praktikum1;
 
 import java.util.Scanner;
 
@@ -21,5 +21,7 @@ public class StudyPage {
 		System.out.println("Enter a definition");
 		termdef = scandef.nextLine();
 		System.out.println(termvar + " : " + termdef);
+		scanterm.close();
+		scandef.close();
 	}
 }
