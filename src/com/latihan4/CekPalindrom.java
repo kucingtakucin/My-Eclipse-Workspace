@@ -19,7 +19,7 @@ public class CekPalindrom {
 		System.out.print("Masukkan suatu kata : ");
 		kata = inputUser.nextLine();
 		
-		char[] kalimat = kata.toCharArray();
+		char[] kalimat = kata.trim().replaceAll(" ","").toCharArray();
 		System.out.println(Arrays.toString(kalimat));
 		System.out.println(Arrays.toString(reverseArray(kalimat)));
 	
